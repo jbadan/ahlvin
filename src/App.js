@@ -20,6 +20,7 @@ import { theme } from "./theme.js";
 const style = ({
   root: {
     flexGrow: 1,
+    overflowY: 'hidden'
   },
   menuButton: {
     marginRight: theme.spacing(2),
