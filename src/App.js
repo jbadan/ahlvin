@@ -20,13 +20,11 @@ import { theme } from "./theme.js";
 const style = ({
   root: {
     flexGrow: 1,
-    overflowY: 'hidden'
+    overflowY: 'hidden',
+    overflowX: 'hidden'
   },
   menuButton: {
     marginRight: theme.spacing(2),
-  },
-  title: {
-    // flexGrow: 1
   }
 })
 
@@ -59,7 +57,7 @@ function App() {
             <MenuItem onClick={handleClose}>Tracker</MenuItem>
             <MenuItem onClick={handleClose}>Kindle Links</MenuItem>
           </Menu>
-        <Typography variant="h4" style={style.title}>Rover</Typography>
+        <Typography variant="h4">Rover</Typography>
         </Toolbar>
       </AppBar>
       <About />
