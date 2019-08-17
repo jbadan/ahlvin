@@ -3,9 +3,7 @@ const about = [
     "We're starting our grand adventure in August 2019. We’ll be taking volunteer crew (family and friends) aboard for various legs. This website is a way to connect with crew with information about what to expect, what to bring and our tentative cruising plan. It also has links to our blogs and tracking pages connected to various satellite devices.", 
     "Some information about us: Eric retired in 2012 after 32 years in R&D (mostly) at HP. Previous passions included flying and bicycling. Linda retired in 2013 from Oregon State University. She's been active in Zonta, was a Scoutmaster, and is a champion baker.",
     "Since retiring, we’ve been preparing Rover for a circumnavigation. We’ve also been preparing ourselves with various cruises in the Pacific Northwest, chartering sailboats in tropical paradises, working as a deckhand or engineer on tall ships. We have four adult children and one daughter in law, 3 of them plus Eric have been tall ship sailors.", 
-];
-
-const about2 = [ "Some information about the boat: \n s/v Rover is a Valiant 42, built in 1999 by Valiant Yachts in Texas. She was originally known as s/v Willow and cruised extensively through the Caribbean for 13 years with her original owners. We bought her in Annapolis in 2013, had her transported to Port Townsend and have completed an extensive refit. She’s 42 feet long (without windvane) has a beam of 12.5 ft and draws 6 ft. Gross Registered Tonnage is 15, actual displacement is about 30,000 lbs. The 55 hp Yanmar diesel engine can draw from 4 tanks with a total capacity of 90 gallons. We carry 90 gallons of fresh water, and have a watermaker (desalinator).", 
+    "Some information about the boat: \n s/v Rover is a Valiant 42, built in 1999 by Valiant Yachts in Texas. She was originally known as s/v Willow and cruised extensively through the Caribbean for 13 years with her original owners. We bought her in Annapolis in 2013, had her transported to Port Townsend and have completed an extensive refit. She’s 42 feet long (without windvane) has a beam of 12.5 ft and draws 6 ft. Gross Registered Tonnage is 15, actual displacement is about 30,000 lbs. The 55 hp Yanmar diesel engine can draw from 4 tanks with a total capacity of 90 gallons. We carry 90 gallons of fresh water, and have a watermaker (desalinator).", 
     "Rover is cutter rigged, with a jib, staysail, mainsail. For light air there is a drifter. For very high winds there is a storm trys’l and storm stays’l. Most sails were built or modified by Port Townsend Sails and are relatively new. All standing and running rigging has been replaced since we bought the boat.",
     "Accommodations include a Pullman stateroom with double berth, a quarter berth stateroom with double berth, and two settees in the salon which can be used as single berths. There is a galley with range, a bbq in the cockpit, small fridge and freezer. There is a head with a separate shower, and a cockpit shower."
 ];
@@ -66,6 +64,54 @@ const schedule = [
         destination: 'Fiji to New Zealand',
         crew: 'Experienced crew opportunities!'
     }
+];
+
+const provided = [
+    'Sleeping bag rated 45F *',
+    'Sleeping bag liner',
+    'Pillow and pillow case',
+    'Thermal coffee mug',
+    'Inflatable PFD with harness, light and whistle',
+    'Tether',
+    '4 Personal locating beacons',
+    'Wash towel',
+    'Hand towel',
+    'Washcloth',
+    'Swim towel',
+    'Soap, Shampoo',
+    'Sunscreen',
+    'General first aid supplies (band aids, etc)',
+    'Non-prescription seasickness medications',
+    'Rig knife',
+    'Filtered fresh water (not bottled)',
+    'Meals and snacks',
+    'Coffee, tea, hot chocolate',
+    'Access to text based e-mail',
+    'Access to texts',
+    'Emergency satphone access',
+    'Location tracking website',
+    'Small Vessel Sea Service Forms (USCG 719S)',
+    'Cribbage board and cards, Scrabble',
+    'Intermittent access to AC and DC charging for devices',
+    '4 sets snorkelling gear***'
 ]
 
-export {title, about, about2, schedule};
+const bring = [
+    'Passport',
+    'Visa (if necessary)',
+    'Personal prescription medications',
+    'Personal toiletries',
+    'Clothes appropriate to destination',
+    'Clothes appropriate to passages',
+    'Foulies including boots',
+    'Swimsuit',
+    'Sun hat',
+    'Water bottle',
+    'Headlamp (red setting)',
+    'Soft sided duffle (no suitcases)',
+    'Day pack for shore excursions',
+    'Camera',
+    'Book or kindle',
+    'Cell phone **'
+]
+export {title, about, schedule, provided, bring};

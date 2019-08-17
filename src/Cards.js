@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import Eric from './images/eric.jpg';
 import Linda from './images/linda.jpg';
 import Avatar from '@material-ui/core/Avatar';
@@ -51,13 +52,12 @@ function Cards() {
                 >
                 </CardHeader>
                 <CardContent style={style.cardContent}>
-                <Avatar style={style.img} src={Eric} alt="Eric Ahlvin" sizes='lg' />
-                <Typography color="textPrimary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</Typography>
+                  <Avatar style={style.img} src={Eric} alt="Eric Ahlvin" sizes='lg' />
                 </CardContent>
                 <CardActions style={style.cardActions}>
                 <Button 
                     fullWidth
-                    href='/'
+                    href='https://www.sailblogs.com/member/rover2'
                     size="large">Learn More</Button>
                 </CardActions>
             </Card>
@@ -71,13 +71,13 @@ function Cards() {
             </CardHeader>
             <CardContent style={style.cardContent}>
             <Avatar style={style.img} src={Linda} alt="Linda Ahlvin" sizes='lg' />
-              <Typography color="textPrimary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</Typography>
+              <Typography color="textPrimary"></Typography>
             </CardContent>
             <CardActions style={style.cardActions}>
               <Button 
                 fullWidth
                 href='/'
-                size="large">Learn More</Button>
+                size="large">Coming Soon</Button>
             </CardActions>
           </Card>
             </Grid>
@@ -94,7 +94,7 @@ function Cards() {
             <CardActions style={style.cardActions}>
               <Button 
                 fullWidth
-                href='/'
+                href='http://www.ngc457.com/coho/index.php?sharename%5B%5D=captainalberg&sharename%5B%5D=emeraldmistress&sharename%5B%5D=DOUGLOMBARD&sharename%5B%5D=Agatha&sharename%5B%5D=svalabama&sharename%5B%5D=ArcticLoon2018&sharename%5B%5D=blueoasis&sharename%5B%5D=svCapellaIII&sharename%5B%5D=SVCoquette&sharename%5B%5D=SvEclipse&sharename%5B%5D=svjeananne&sharename%5B%5D=NorthStar&sharename%5B%5D=Realitycheck&sharename%5B%5D=MarcusCox'
                 size="large">Learn More</Button>
             </CardActions>
           </Card>
@@ -103,18 +103,19 @@ function Cards() {
           <Card raised={true} style={style.cards}>
             <CardHeader
               style={style.cardHeader}
-              title="Kindle Links"
+              title="Links"
             >
             </CardHeader>
             <CardContent style={style.cardContent}>
-              <Typography color="textPrimary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</Typography>
+              <Typography color="textPrimary">
+                <ul>
+                  <li><a target='_blank' href='http://valiantsailboats.com/mac/mac42specs.htm'>Rover Specs</a></li>
+                  <li><a target='_blank' href='http://www.baja-haha.com/Dates.html'>Baja Ha-Ha</a></li>
+                  <li><a target='_blank' href='https://cohohoho.com/rally-runner-blogs/'>COHO HO HO</a></li>
+                  <li><a target='_blank' href='http://www.pacificpuddlejump.com'>Pacific Puddle Jump</a></li>
+                </ul>
+              </Typography>
             </CardContent>
-            <CardActions style={style.cardActions}>
-              <Button 
-                fullWidth
-                href='/'
-                size="large">Learn More</Button>
-            </CardActions>
           </Card>
           </Grid>
     </Grid>

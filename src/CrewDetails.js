@@ -11,7 +11,7 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import Button from '@material-ui/core/Button';
-
+import { bring, provided } from './messages';
 import CheckIcon from '@material-ui/icons/CheckBoxOutlined';
 import { theme } from "./theme.js";
 
@@ -56,16 +56,8 @@ const style = ({
 
 function CrewDetails() {
 
-  let providedArray = [
-    'item 1', 'item 2', 'item 3', 'item 4', 'item 5'
-  ];
 
-  let bringArray = [
-    'item 1', 'item 2', 'item 3', 'item 4', 'item 5'
-  ];
-
-
-  const checklist = providedArray.map((item, i) => (
+  const checklistProvided = provided.map((item, i) => (
       <ListItem key={i}>
         <ListItemIcon>
           <CheckIcon />
@@ -74,7 +66,7 @@ function CrewDetails() {
       </ListItem>
   ))
 
-  const checklist2 = bringArray.map((item, i) => (
+  const checklistBring = bring.map((item, i) => (
     <ListItem key={i}>
       <ListItemIcon>
         <CheckIcon />
@@ -103,7 +95,7 @@ function CrewDetails() {
                 </CardHeader>
                 <CardContent style={style.cardContent}>
                 <List>
-                  {checklist}
+                  {checklistProvided}
                 </List>
                 </CardContent>
             </Card>
@@ -117,7 +109,7 @@ function CrewDetails() {
                 </CardHeader>
                 <CardContent style={style.cardContent}>
                 <List>
-                  {checklist2}
+                  {checklistBring}
                 </List>
              </CardContent>
             </Card>
