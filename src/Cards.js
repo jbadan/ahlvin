@@ -89,7 +89,7 @@ function Cards() {
             >
             </CardHeader>
             <CardContent style={style.cardContent}>
-              <Typography color="textPrimary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</Typography>
+              <Typography color="textPrimary">Track our progress by clicking the button below, then select "S/V Rover"</Typography>
             </CardContent>
             <CardActions style={style.cardActions}>
               <Button 
