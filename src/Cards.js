@@ -90,12 +90,16 @@ function Cards() {
             </CardHeader>
             <CardContent style={style.cardContent}>
               <Typography color="textPrimary">Track our progress by clicking the button below, then select "S/V Rover"</Typography>
-            </CardContent>
+            </CardContent>https://us0-share.inreach.garmin.com/svRover
             <CardActions style={style.cardActions}>
               <Button 
                 fullWidth
                 href='http://www.ngc457.com/coho/index.php?sharename%5B%5D=captainalberg&sharename%5B%5D=emeraldmistress&sharename%5B%5D=DOUGLOMBARD&sharename%5B%5D=Agatha&sharename%5B%5D=svalabama&sharename%5B%5D=ArcticLoon2018&sharename%5B%5D=blueoasis&sharename%5B%5D=svCapellaIII&sharename%5B%5D=SVCoquette&sharename%5B%5D=SvEclipse&sharename%5B%5D=svjeananne&sharename%5B%5D=NorthStar&sharename%5B%5D=Realitycheck&sharename%5B%5D=MarcusCox'
-                size="large">Learn More</Button>
+                size="large">ngc457 Tracker</Button>
+                <Button 
+                fullWidth
+                href='https://us0-share.inreach.garmin.com/svRover'
+                size="large">Garmin Tracker</Button>
             </CardActions>
           </Card>
             </Grid>
