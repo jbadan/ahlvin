@@ -76,8 +76,8 @@ function Cards() {
             <CardActions style={style.cardActions}>
               <Button 
                 fullWidth
-                href='/'
-                size="large">Coming Soon</Button>
+                href='http://livingthelifeofrover.blogspot.com/'
+                size="large">Learn More</Button>
             </CardActions>
           </Card>
             </Grid>
